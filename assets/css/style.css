@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto";
+  overflow-x: hidden;
 }
 /* a {
   color: #fff;
@@ -64,58 +65,46 @@ body {
   right: -70px;
 }
 /* Banner Css */
-.container {
-  margin: 0 auto;
-  width: 99%;
-  max-width: 1891px;
-}
 .main-banner {
-  position: absolute;
-  margin: 160px auto;
+  margin-top: 60px;
+}
+.fcontainer {
+  display: flex;
+  margin-left: 50px;
+}
+.banner-content {
+  margin-left: 60px;
+}
+.main-banner .banner-content h2 {
+  font-size: 41px;
+  font-weight: 900;
+  margin-bottom: -20px;
 }
 
-.main-banner .banner-content h2 {
-  position: relative;
-  left: 50px;
-  transform: translate(50px, 50px);
-  font-family: "Lato", sans-serif;
-  font-size: 50px;
-  line-height: 40px;
-}
 .main-banner .banner-content p {
-  padding: 45px 45px;
+  padding-top: 30px;
+  font-size: 13px;
 }
-.wave-me {
-  right: -94px;
-  position: relative;
-  top: -34px;
-  left: auto;
-  transform: translate(54px, 3px);
+.main-banner .banner-content .wave-me {
   display: flex;
+  justify-content: center;
+  margin: 0px 63px 0px 0px;
+  padding-top: 20px;
 }
-.wave-me a {
+.main-banner .banner-content .wave-me a {
   background-color: #3d37f1;
   border-radius: 40px;
-  justify-content: center;
   padding: 7px 46px 5px 39px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   color: #fff;
   box-shadow: 2px;
 }
-.wave-me a:hover {
-  background-color: #3d37f1;
-  color: black;
-  transition: 0.5s ease-in-out;
+.main-banner .banner-image {
+  justify-content: flex-end;
+  display: flex;
 }
-.main-image {
-  position: relative;
-  transform: translate(96%, -124%);
-}
-.main-image img {
-  width: 51%;
+.main-banner .banner-image img {
+  width: 70%;
 }
 
 /* Banner Css End */
