@@ -88,16 +88,15 @@ body {
 .main-banner .banner-content .wave-me {
   display: flex;
   justify-content: center;
-  margin: 0px 63px 0px 0px;
+  margin: 0px 90px 0px -30px;
   padding-top: 20px;
 }
 .main-banner .banner-content .wave-me a {
   background-color: #3d37f1;
-  border-radius: 40px;
-  padding: 7px 46px 5px 39px;
+  border-radius: 50px;
+  padding: 10px 30px 9px 30px;
   text-decoration: none;
   color: #fff;
-  box-shadow: 2px;
 }
 .main-banner .banner-image {
   justify-content: flex-end;
